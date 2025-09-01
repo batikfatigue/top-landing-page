@@ -80,7 +80,7 @@ a , .desc {
     justify-content: center;
 }
 
-button {
+.hero button {
     background: #3882f6;
     width: 100px;
     height: 50px;
@@ -144,6 +144,41 @@ button {
     color: #1f2937;
 }
 
+.reminder {
+    padding: 50px 100px;
+}
+
+.reminder > div {
+    color: white;
+    border-radius: 20px;
+    padding: 50px 100px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.reminder .heading, .reminder button {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.reminder .desc {
+    font-size: 18px;
+}
+
+.reminder button {
+    color: white;
+    padding: 10px 50px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: 3px white solid;
+}
+
+.reminder button:active {
+    background-color: #2961ba;
+    border-color: rgba(255, 255, 255, 0.803);
+}
 
 
 
