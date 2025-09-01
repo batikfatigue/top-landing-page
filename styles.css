@@ -8,32 +8,20 @@ body {
 
 .header {
     background-color: #1f2937;
+    padding: 20px 0 100px;
 }
 
 nav ul {
     display: flex;
     flex-direction: row;
     list-style: none;
-    margin: 0px;
-    padding: 10px 50px;
-    gap: 8px;
+    margin: 0;
+    padding: 20px 50px;
+    gap: 8px; /* for nav links */
 }
 
 nav .img {
     margin-right: auto;
-}
-
-.hero {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 20px;
-}
-
-.main {
-    font-size: 48px;
-    color: #f9faf8;
-    font-weight: 900;
 }
 
 a {
@@ -44,4 +32,36 @@ a , .desc {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+.main {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 0 50px;
+}
+
+.hero img {
+    flex: 1 0 auto;
+}
+
+.hero .left {
+    width: 400px;
+    flex: 2 1 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+
+
+
+
 
